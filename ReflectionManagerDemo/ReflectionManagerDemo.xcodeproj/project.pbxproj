@@ -14,6 +14,7 @@
 		C948F7B91F44454C00697E5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C948F7B81F44454C00697E5B /* Assets.xcassets */; };
 		C948F7BC1F44454C00697E5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C948F7BA1F44454C00697E5B /* LaunchScreen.storyboard */; };
 		C948F7C51F44463500697E5B /* ReflectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C948F7C41F44463500697E5B /* ReflectionManager.m */; };
+		C948F7C81F4450C000697E5B /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C948F7C71F4450C000697E5B /* UserInfoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		C948F7BD1F44454C00697E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C948F7C31F44463500697E5B /* ReflectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflectionManager.h; sourceTree = "<group>"; };
 		C948F7C41F44463500697E5B /* ReflectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReflectionManager.m; sourceTree = "<group>"; };
+		C948F7C61F4450C000697E5B /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
+		C948F7C71F4450C000697E5B /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				C948F7B01F44454C00697E5B /* AppDelegate.m */,
 				C948F7B21F44454C00697E5B /* ViewController.h */,
 				C948F7B31F44454C00697E5B /* ViewController.m */,
+				C948F7C61F4450C000697E5B /* UserInfoViewController.h */,
+				C948F7C71F4450C000697E5B /* UserInfoViewController.m */,
 				C948F7B51F44454C00697E5B /* Main.storyboard */,
 				C948F7B81F44454C00697E5B /* Assets.xcassets */,
 				C948F7BA1F44454C00697E5B /* LaunchScreen.storyboard */,
@@ -156,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C948F7C81F4450C000697E5B /* UserInfoViewController.m in Sources */,
 				C948F7C51F44463500697E5B /* ReflectionManager.m in Sources */,
 				C948F7B41F44454C00697E5B /* ViewController.m in Sources */,
 				C948F7B11F44454C00697E5B /* AppDelegate.m in Sources */,
